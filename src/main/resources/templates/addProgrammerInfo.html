@@ -1,0 +1,21 @@
+<DOCTYPE html>
+	<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Add Programmer</title>
+	</head>
+
+	<body>
+		<h1 th:text="${msg}"></h1>
+		<form action="addNewProgrammer" method="post">
+			<h3>Enter Programmer's Name</h3>
+			<input type="text" name="pName"></input>
+			<h3>Enter Programmer's Language</h3>
+			<input type="text" name="pLang"></input>
+			<button type="submit">Add Programmer</button>
+		</form>
+
+	</body>
+
+	</html>
